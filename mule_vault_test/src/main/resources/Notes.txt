@@ -1,6 +1,12 @@
-Sample Code
+Usage Notes
+~~~~~~~~~~~
 
-Uses AES with the following Key:
+To update the passwords, right click on src/main/resources/credentials.properties
 
-kdsks8832kkd/90&
+and select 'Open with > Mule Properties Editor' (Needs the Security package installed)
+ 
+Double click the key (i.e. password1) to change, click decrypt to view the current value,
+edit it, then encrypt to update it.
+ 
+Uses AES with the following Key:    kdsks8832kkd/90&
 
