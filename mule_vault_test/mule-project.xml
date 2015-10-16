@@ -3,4 +3,5 @@
     <name>Mule Vault test</name>
     <description></description>
     <muleExtension name="Secure Property Placeholder" qualifier="org.mule.tooling.ui.contribution.secure-property-placeholder.3.6.0"/>
+    <muleExtension name="Encryption" qualifier="org.mule.tooling.ui.contribution.encryption.3.6.0"/>
 </mule-project>

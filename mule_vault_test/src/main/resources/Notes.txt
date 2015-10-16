@@ -10,3 +10,15 @@ edit it, then encrypt to update it.
  
 Uses AES with the following Key:    kdsks8832kkd/90&
 
+To run
+~~~~~~
+
+In Studio, needs the following adding the the 'VM arguments'.
+
+	Under: Run > Run Configuration > Arguments
+
+Add :	-Dprod.key="kdsks8832kkd/90&" -Denv=prod
+
+If there are existing arguments (usually memory settings), just add to the end of the line
+	(with a space before the first -D).
+ 
